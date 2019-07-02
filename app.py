@@ -28,4 +28,4 @@ def code_compile():
         result={"code":code,"codeoutput":codeoutput}
         return render_template('code.html',result=result)
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='http://pyinterpreter.azurewebsites.net/')
